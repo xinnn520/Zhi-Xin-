@@ -126,3 +126,29 @@ section li:last-child {
   font-weight: 600;
   color: #045d75;
 }
+
+
+.conclusion {
+  padding: 30px;
+  background: #f0f8ff; /* pastel blue-white */
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  color: #1a1a1a;
+  margin-top: 40px;
+}
+
+.conclusion h2 {
+  font-size: 1.6em;
+  color: #0077b6;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a1c4dc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.conclusion p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
