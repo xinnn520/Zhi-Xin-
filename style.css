@@ -1,31 +1,119 @@
-.events {
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  margin-top: 30px;
+/* General section styling for all main content blocks */
+.about-me,
+.reflection,
+.internship,
+.conclusion,
+.events,
+.certifications,
+.additional-awards,
+.leadership,
+.achievements,
+.education {
+  background-color: #e8f4fa; /* unified pastel blue background */
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
 }
 
-.events h2 {
-  text-align: center;
-  font-size: 1.8em;
-  margin-bottom: 25px;
-  color: #007acc;
+/* Headings for all sections */
+.about-me h2,
+.reflection h2,
+.internship h2,
+.conclusion h2,
+.events h2,
+.certifications h2,
+.additional-awards h2,
+.leadership h2,
+.achievements h2,
+.education h2 {
+  font-size: 1.75em;
+  color: #0077b6; /* consistent pastel blue heading color */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #bce0f2;
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
+/* Paragraphs and text inside sections */
+.about-me .about-text,
+.reflection .reflection-text,
+.internship .internship-card,
+.conclusion .conclusion-text,
+.events .event-desc,
+.certifications ul,
+.additional-awards ul,
+.leadership ul,
+.achievements ul,
+.education ul {
+  font-size: 1.05em;
+  line-height: 1.75;
+  color: #2c3e50;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+/* Specific styling for list items */
+.certifications ul,
+.additional-awards ul,
+.leadership ul,
+.achievements ul,
+.education ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.certifications li,
+.additional-awards li,
+.leadership li,
+.achievements li,
+.education li {
+  padding: 8px 0;
+  border-bottom: 1px solid #d9e6ef;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.certifications li:last-child,
+.additional-awards li:last-child,
+.leadership li:last-child,
+.achievements li:last-child,
+.education li:last-child {
+  border-bottom: none;
+}
+
+/* Year styling on the right */
+.year {
+  font-weight: 600;
+  color: #666;
+  margin-left: 12px;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Event blocks */
 .event {
   margin-bottom: 20px;
   padding: 15px;
   background: white;
-  border-left: 4px solid #007acc;
+  border-left: 5px solid #0077b6; /* same blue as headings */
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  color: #1a1a1a;
 }
 
 .event-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1.15em;
-  color: #1a1a1a;
+  color: #0077b6;
   margin-bottom: 5px;
 }
 
@@ -36,70 +124,12 @@
   line-height: 1.5;
 }
 
-
-
-
-section {
-  margin-bottom: 30px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-section h2 {
-  font-size: 1.5em;
-  color: #007acc;
-  margin-bottom: 15px;
-}
-
-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-section li {
-  padding: 8px 0;
-  border-bottom: 1px solid #eaeaea;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-section li:last-child {
-  border-bottom: none;
-}
-
-.year {
-  font-weight: 600;
-  color: #666;
-  float: right;
-}
-
-
-
-.internship {
-  padding: 30px;
-  background: #e8f4fa; /* light pastel blue */
-  color: #1a1a1a;
-  border-radius: 12px;
-  margin-top: 40px;
-  font-family: 'Segoe UI', sans-serif;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-.internship h2 {
-  font-size: 1.8em;
-  margin-bottom: 20px;
-  color: #0077b6;
-  border-bottom: 2px solid #a1c4dc;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
+/* Internship card specifics */
 .internship-card {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  border-left: 5px solid #89c2d9;
+  border-left: 5px solid #0077b6;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -120,126 +150,32 @@ section li:last-child {
   line-height: 1.6;
 }
 
+/* Highlighted text style */
 .highlight {
-  background: #d0ebf9;
+  background: #b8d9f5; /* softer pastel blue highlight */
   padding: 2px 6px;
   border-radius: 4px;
   font-weight: 600;
-  color: #045d75;
+  color: #004a75;
 }
 
-
-.conclusion {
-  background-color: #eaf6fb; /* soft pastel blue */
-  padding: 40px;
-  margin-top: 50px;
-  border-radius: 16px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
   font-family: 'Segoe UI', sans-serif;
-  color: #1f2d3d;
+  background-color: #0077b6;
+  color: white;
+  margin-top: 60px;
+  border-radius: 0 0 16px 16px;
 }
 
-.conclusion h2 {
-  font-size: 1.8em;
-  margin-bottom: 20px;
-  color: #0077b6;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  border-bottom: 2px solid #b9dffa;
-  padding-bottom: 6px;
+footer a {
+  color: #caf0f8;
+  text-decoration: none;
+  margin-left: 8px;
 }
 
-.conclusion-text p {
-  font-size: 1.05em;
-  line-height: 1.8;
-  margin-bottom: 15px;
-  text-align: justify;
-  color: #2c3e50;
-}
-}
-
-
-
-.reflection {
-  background-color: #f2faff;
-  padding: 40px;
-  margin-top: 40px;
-  border-radius: 16px;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
-  font-family: 'Segoe UI', sans-serif;
-  color: #1a1a1a;
-}
-
-.reflection h2 {
-  font-size: 1.75em;
-  color: #0096c7;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #bce0f2;
-  padding-bottom: 6px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.reflection-text p {
-  font-size: 1.05em;
-  line-height: 1.75;
-  margin-bottom: 16px;
-  text-align: justify;
-  color: #2c3e50;
-}
-
-
-.about-me,
-.reflection,
-.internship,
-.conclusion {
-  background-color: #f0f9ff; /* pastel blue */
-  padding: 40px;
-  margin-top: 40px;
-  border-radius: 16px;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #1a1a1a;
-}
-
-.about-me h2,
-.reflection h2,
-.internship h2,
-.conclusion h2 {
-  font-size: 1.75em;
-  color: #0077b6;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #bce0f2;
-  padding-bottom: 6px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.about-me .about-text,
-.reflection .reflection-text,
-.internship .internship-card,
-.conclusion .conclusion-text {
-  font-size: 1.05em;
-  line-height: 1.75;
-  color: #2c3e50;
-  text-align: justify;
-}
-
-.about-me .about-text p,
-.reflection .reflection-text p,
-.internship .internship-card p,
-.conclusion .conclusion-text p {
-  margin-bottom: 16px;
-}
-
-/* Highlight spans */
-.highlight {
-  background: #d0ebf9;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-weight: 600;
-  color: #045d75;
+footer a:hover {
+  text-decoration: underline;
 }
