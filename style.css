@@ -124,16 +124,17 @@
   line-height: 1.5;
 }
 
-/* Profile picture styling */
+/* Profile picture styling - full width display */
 .profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 16px;
   object-fit: cover;
   display: block;
   margin: 20px auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border: 3px solid #0077b6;
+  border: 4px solid #0077b6;
 }
 
 /* Internship card specifics */
