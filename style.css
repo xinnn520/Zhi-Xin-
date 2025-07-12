@@ -77,40 +77,40 @@ section li:last-child {
 
 .internship {
   padding: 30px;
-  background: #0e1a2b;
-  color: #e0f0ff;
+  background: #e8f4fa; /* light pastel blue */
+  color: #1a1a1a;
   border-radius: 12px;
   margin-top: 40px;
   font-family: 'Segoe UI', sans-serif;
-  box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .internship h2 {
   font-size: 1.8em;
   margin-bottom: 20px;
-  color: #00ffff;
-  border-bottom: 2px solid #00ffff;
+  color: #0077b6;
+  border-bottom: 2px solid #a1c4dc;
   display: inline-block;
   padding-bottom: 5px;
 }
 
 .internship-card {
-  background-color: #162a45;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  border-left: 5px solid #00bcd4;
-  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+  border-left: 5px solid #89c2d9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .internship-card h3 {
   font-size: 1.4em;
-  color: #00ffff;
+  color: #0077b6;
   margin-bottom: 5px;
 }
 
 .internship-card .position {
   font-style: italic;
-  color: #80dfff;
+  color: #4a90a4;
   margin-bottom: 15px;
 }
 
@@ -120,9 +120,9 @@ section li:last-child {
 }
 
 .highlight {
-  background: rgba(0, 255, 255, 0.1);
-  padding: 2px 5px;
+  background: #d0ebf9;
+  padding: 2px 6px;
   border-radius: 4px;
   font-weight: 600;
-  color: #aefeff;
+  color: #045d75;
 }
