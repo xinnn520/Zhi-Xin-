@@ -129,26 +129,31 @@ section li:last-child {
 
 
 .conclusion {
-  padding: 30px;
-  background: #f0f8ff; /* pastel blue-white */
-  border-radius: 12px;
+  background-color: #eaf6fb; /* soft pastel blue */
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
   font-family: 'Segoe UI', sans-serif;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-  color: #1a1a1a;
-  margin-top: 40px;
+  color: #1f2d3d;
 }
 
 .conclusion h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
+  margin-bottom: 20px;
   color: #0077b6;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #a1c4dc;
-  display: inline-block;
-  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #b9dffa;
+  padding-bottom: 6px;
 }
 
-.conclusion p {
-  font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 10px;
+.conclusion-text p {
+  font-size: 1.05em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+  color: #2c3e50;
+}
 }
