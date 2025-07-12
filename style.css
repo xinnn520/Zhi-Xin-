@@ -67,6 +67,17 @@
   padding-left: 0;
 }
 
+.profile-pic {
+  width: 150px;          /* size */
+  height: 150px;         /* keep it square */
+  border-radius: 50%;    /* make it round */
+  object-fit: cover;     /* crop nicely */
+  display: block;
+  margin: 20px auto;     /* center horizontally */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+  border: 3px solid #0077b6; /* pastel blue border to match your theme */
+}
+
 .certifications li,
 .additional-awards li,
 .leadership li,
