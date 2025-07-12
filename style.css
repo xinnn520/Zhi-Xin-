@@ -29,20 +29,6 @@ header p {
   font-size: 1.2rem;
 }
 
-.profile-banner {
-  width: 100%;
-  max-height: 300px;
-  overflow: hidden;
-  border-bottom: 6px solid #0077b6;
-  margin-bottom: 40px;
-}
-
-.profile-banner img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-}
 
 main {
   max-width: 900px;
