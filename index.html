@@ -9,6 +9,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    .profile-banner {
+      width: 100%;
+      max-height: 300px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      border-bottom: 6px solid #0077b6;
+    }
+
+    .profile-banner img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,8 +32,10 @@
     <p>Welcome to my portfolio — a showcase of my journey, achievements, and ambitions 🚀</p>
   </header>
 
-  <!-- Full profile picture below header -->
-  <img src="images/profile.jpg" alt="Ng Zhi Xin Profile Picture" class="profile-pic" />
+  <!-- Full-width profile banner -->
+  <div class="profile-banner">
+    <img src="images/profile.jpg" alt="Ng Zhi Xin Full Banner Photo" />
+  </div>
 
   <main>
     <section class="about-me">
@@ -114,4 +132,6 @@
     </p>
   </footer>
 </body>
+</html>
+
 </html>
